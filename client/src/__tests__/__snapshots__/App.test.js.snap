@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test App component:  MOUNT Snapshot. 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="wrap"
+  >
+    <div
+      className="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 auth"
+    >
+      <div
+        className="header"
+      >
+        <div
+          className="header__icon"
+        />
+        <div
+          className="header__title"
+        >
+          <h3
+            className="header__info"
+          >
+            Swedavia
+          </h3>
+          <p
+            className="header__sub"
+          >
+            Swedish airports
+          </p>
+        </div>
+      </div>
+      <div
+        className="MuiFormControl-root-28 input-text-field"
+      >
+        <label
+          className="MuiFormLabel-root-37 MuiInputLabel-root-32 MuiInputLabel-formControl-33 MuiInputLabel-animated-36"
+          data-shrink={false}
+        >
+          Username
+        </label>
+        <div
+          className="MuiInput-root-44 MuiInput-formControl-45 MuiInput-underline-48"
+        >
+          <input
+            aria-invalid={false}
+            className="MuiInput-input-52"
+            disabled={false}
+            name="username"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={false}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="MuiFormControl-root-28 input-text-field"
+      >
+        <label
+          className="MuiFormLabel-root-37 MuiInputLabel-root-32 MuiInputLabel-formControl-33 MuiInputLabel-animated-36"
+          data-shrink={false}
+        >
+          Password
+        </label>
+        <div
+          className="MuiInput-root-44 MuiInput-formControl-45 MuiInput-underline-48"
+        >
+          <input
+            aria-invalid={false}
+            className="MuiInput-input-52 MuiInput-inputType-55"
+            disabled={false}
+            name="password"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={false}
+            type="password"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="footer"
+      >
+        <button
+          className="MuiButtonBase-root-83 MuiButton-root-57 MuiButton-text-59 MuiButton-flat-62 footer__submit"
+          disabled={false}
+          label="Login"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "background": "#FF1493",
+              "float": "left",
+              "margin": "15px 0 0",
+            }
+          }
+          tabIndex="0"
+          type="submit"
+        >
+          <span
+            className="MuiButton-label-58"
+          >
+            Отправить
+          </span>
+          <span
+            className="MuiTouchRipple-root-86"
+          />
+        </button>
+        <div
+          className="footer__forgot-pass"
+        >
+          <a
+            href="#"
+          >
+            Forgot password ?
+          </a>
+        </div>
+        <div
+          aria-describedby="alert-dialog-slide-description"
+          aria-labelledby="alert-dialog-slide-title"
+          className="MuiModal-root-104 MuiDialog-root-93 MuiDialog-scrollPaper-94 MuiModal-hidden-105"
+          role="dialog"
+        >
+          <div
+            aria-hidden="true"
+            className="MuiBackdrop-root-106"
+            onClick={[Function]}
+            style={
+              Object {
+                "opacity": 0,
+                "willChange": "opacity",
+              }
+            }
+          />
+          <div
+            className="MuiPaper-root-1 MuiPaper-elevation24-27 MuiPaper-rounded-2 MuiDialog-paper-96 MuiDialog-paperScrollPaper-97 MuiDialog-paperWidthSm-100"
+            direction="up"
+            role="document"
+            style={
+              Object {
+                "visibility": "hidden",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className="MuiDialogTitle-root-108"
+              id="alert-dialog-slide-title"
+            >
+              <h2
+                className="MuiTypography-root-109 MuiTypography-title-115"
+              >
+                Welcome to our site !
+              </h2>
+            </div>
+            <div
+              className="MuiDialogContent-root-134"
+            >
+              <p
+                className="MuiTypography-root-109 MuiDialogContentText-root-135 MuiTypography-subheading-116 MuiTypography-colorTextSecondary-132"
+                id="alert-dialog-slide-description"
+              >
+                Dear, 
+                .
+              </p>
+            </div>
+            <div
+              className="MuiDialogActions-root-136"
+            >
+              <button
+                className="MuiButtonBase-root-83 MuiButton-root-57 MuiButton-text-59 MuiButton-textPrimary-60 MuiButton-flat-62 MuiButton-flatPrimary-63 MuiDialogActions-action-137"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-58"
+                >
+                  Ok
+                </span>
+                <span
+                  className="MuiTouchRipple-root-86"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Test App component:  SHALLOW Snapshot. 1`] = `
+<ValidatorForm
+  debounceTime={0}
+  onError={[Function]}
+  onSubmit={[Function]}
+>
+  <div
+    className="wrap"
+  >
+    <WithStyles(Paper)
+      className="auth"
+    >
+      <div
+        className="header"
+      >
+        <div
+          className="header__icon"
+        />
+        <div
+          className="header__title"
+        >
+          <h3
+            className="header__info"
+          >
+            Swedavia
+          </h3>
+          <p
+            className="header__sub"
+          >
+            Swedish airports
+          </p>
+        </div>
+      </div>
+      <TextValidator
+        className="input-text-field"
+        errorMessages={
+          Array [
+            "this field is required",
+          ]
+        }
+        label="Username"
+        name="username"
+        onChange={[Function]}
+        validatorListener={[Function]}
+        validators={
+          Array [
+            "required",
+          ]
+        }
+        value=""
+      />
+      <TextValidator
+        className="input-text-field"
+        errorMessages={
+          Array [
+            "this field is required",
+          ]
+        }
+        label="Password"
+        name="password"
+        onChange={[Function]}
+        type="password"
+        validatorListener={[Function]}
+        validators={
+          Array [
+            "required",
+          ]
+        }
+        value=""
+      />
+      <div
+        className="footer"
+      >
+        <WithStyles(Button)
+          className="footer__submit"
+          disabled={false}
+          label="Login"
+          style={
+            Object {
+              "background": "#FF1493",
+              "float": "left",
+              "margin": "15px 0 0",
+            }
+          }
+          type="submit"
+        >
+          Отправить
+        </WithStyles(Button)>
+        <div
+          className="footer__forgot-pass"
+        >
+          <a
+            href="#"
+          >
+            Forgot password ?
+          </a>
+        </div>
+        <WithStyles(Dialog)
+          TransitionComponent={[Function]}
+          aria-describedby="alert-dialog-slide-description"
+          aria-labelledby="alert-dialog-slide-title"
+          keepMounted={true}
+          onClose={[Function]}
+          open={false}
+        >
+          <WithStyles(DialogTitle)
+            id="alert-dialog-slide-title"
+          >
+            Welcome to our site !
+          </WithStyles(DialogTitle)>
+          <WithStyles(DialogContent)>
+            <WithStyles(DialogContentText)
+              id="alert-dialog-slide-description"
+            >
+              Dear, 
+              .
+            </WithStyles(DialogContentText)>
+          </WithStyles(DialogContent)>
+          <WithStyles(DialogActions)>
+            <WithStyles(Button)
+              color="primary"
+              onClick={[Function]}
+            >
+              Ok
+            </WithStyles(Button)>
+          </WithStyles(DialogActions)>
+        </WithStyles(Dialog)>
+      </div>
+    </WithStyles(Paper)>
+  </div>
+</ValidatorForm>
+`;
