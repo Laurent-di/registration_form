@@ -34,7 +34,7 @@
     "img-loader": "^2.0.1",
     "jest": "^23.4.2",
     "jest-enzyme": "^6.0.3",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "react-addons-test-utils": "^15.6.2",
     "react-material-ui-form-validator": "^2.0.1",
     "react-test-renderer": "^15.6.2",
